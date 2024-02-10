@@ -56,7 +56,7 @@ namespace KranUebung
 
 		private void CmdKranRaus_Click(object sender, EventArgs e)
 		{
-			if ()
+			//if () //HIER FEHLT CODE
 			PanelKran.Size = new Size(PanelKran.Width, PanelKran.Height + 20);
 			PanelKran.Location = new Point(PanelKran.Location.X, PanelKran.Location.Y - 20);
 			PanelAusleger.Location = new Point(PanelAusleger.Location.X, PanelAusleger.Location.Y - 20);
